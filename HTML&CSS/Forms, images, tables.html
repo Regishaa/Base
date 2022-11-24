@@ -1,0 +1,152 @@
+<!--Создание формы обратной связи -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интернет-магазин</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Связаться с нами!</h1>
+    <form id="feedback">
+        Фамилия: <br> <input type="text" name ="lastname" id="lastname"><br>
+        Имя: <br>
+        <input type="text" name="firstname" id="firstname"><br>
+        Отчество: <br>
+        <input type="text" id="patronymic"><br>
+        <p>Тема сообщения:<br>
+            <select name="topic" id="topic">
+                <option value="1">Предложение</option>
+                <option value="2">Проблема</option>
+                <option value="2">Жалоба</option>
+                </select>
+            </p>
+    <p>
+        <input type="checkbox" id="email">Получить ответ по e-mail<br>
+        </p>
+    <p>
+        <input type= "submit" value="Отправить сообщение" id="send">
+        <input type="reset" value="Очистить форму" id="clear">
+    </p>
+    </form>
+</body>
+</html>
+
+<!--Вставка изображений с других сайтов-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой сайт</title>
+</head>
+<body>
+   <h1>Привет, мир!</h1>
+    <p><img src='http://web.mindcraft.pro/images/example.png' alt='Изображение'></p>
+</body>
+</html>
+
+<!--Добавление аьтернативного текста-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой сайт</title>
+</head>
+<body>
+  <img src="http://web.mindcraft.pro/images/bob.gif" alt='Кто проживает на дне океана?'>
+</body>
+</html>
+
+<!--Работа с размером изображения-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой сайт</title>
+</head>
+<body>
+  <img src="http://web.mindcraft.pro/images/bob.gif" width='200' height='200' alt="Боб">
+</body>
+</html>
+<!--Создание простой таблицы-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Список призеров</title>
+<table>
+    <tr>
+        <th>№</th>
+        <th>Участник</th>
+        <th>Класс</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Иванов</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Петров</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Сидоров</td>
+        <td>11</td>
+    </tr>
+    </table>
+</head>
+<body>
+
+<!--Объединение ячеек-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Корзина</title>
+</head>
+<body>
+  <table>
+   <tr>
+    <th>№</th>
+    <th>Товар</th>
+    <th>Цена</th>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>Яблоки</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Помидоры</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td colspan="2">Итого</td>
+    <td>110</td>
+  </tr>
+ </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Корзина</title>
+</head>
+<body>
+  <table>
+   <tr>
+    <th>№</th>
+    <th>Товар</th>
+    <th>Цена</th>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>Яблоки</td>
+    <td rowspan="2">50</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Помидоры</td>
+   
+  </tr>
+ </table>
+</body>
+</html>
