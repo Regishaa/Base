@@ -27,10 +27,73 @@
     src: url("../fonts/Roboto-Regular.ttf") format("ttf");
 }
 
-font-family: "HelveticaNeueLTProLt", sans-serif;
+/* font-family: "HelveticaNeueLTProLt", sans-serif;
 font-family: "HelveticaNeueLTProMd", sans-serif;
 font-family: "HelveticaNeueLTProRoman", sans-serif;
 font-family: "Merriweather-LightItalic", sans-serif;
 font-family: "ontserrat-Light", sans-serif;
 font-family: "Montserrat-Regular", sans-serif;
-font-family: "Roboto-Regular", sans-serif;
+font-family: "Roboto-Regular", sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    border:  1px solid red;
+}
+.header {
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_item {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #989696;
+    text-decoration: none;
+    margin-right: 43px;
+}
+.menu_item :last-child {
+    margin-right: 0;
+}
+.active {
+    color: #010101;
+}
+.logo {
+    margin: 0 16px;
+}
+.header_content {
+}
+.header_title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 44px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+}
+.header_text {
+    font-family: "Merriweather-LightItalic", sans-serif;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.03em;
+    color: #898888;
+}
+.header_button {
+}
